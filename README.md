@@ -2,7 +2,7 @@
 
 ## Description
 
-`escape-umlaut` is a small JavaScript package that provides a single function for escaping special characters like umlauts (e.g. õ, ä, ö, ü) in a given string. The special characters are replaced with their respective [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For a full list of currently supported HTML entities, see the [Current special characters map](#1-Current-special-characters-map) at the end of this README.
+`escape-umlaut` is a small JavaScript package that provides a single function for escaping special characters like umlauts (e.g. õ, ä, ö, ü) in a given string. The special characters are replaced with their respective [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For a full list of currently supported HTML entities, see the [Current special characters map](#current-special-characters-map) at the end of this README.
 
 ## Installation
 
@@ -32,7 +32,7 @@ This function takes a string input as its parameter and returns a new string wit
 
 ## License
 
-This package is released under the MIT License. See the LICENSE file for more details.
+This package is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Issues
 

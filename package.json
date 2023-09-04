@@ -2,6 +2,7 @@
   "name": "umlaut-escape",
   "version": "1.0.0",
   "description": "Escape umlauts and other special characters in a string. Converts them into HTML entities. Useful when searching for a string in HTML content.",
+  "homepage": "https://github.com/rightdroid/umlaut-escape#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",

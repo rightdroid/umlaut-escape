@@ -4,7 +4,7 @@
  * @param {string} input string to escape
  * @returns {string} escaped string
  */
-export function escapeUmlauts(input: string) {
+export function escapeUmlaut(input: string) {
   return input
     .split("")
     .map((character) => specialCharMap[character] || character)
