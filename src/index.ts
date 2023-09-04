@@ -1,0 +1,82 @@
+/**
+ * Converts umlauts and other special characters to html entities.
+ * For example: ä: '\&auml;'
+ * @param {string} input string to escape
+ * @returns {string} escaped string
+ */
+export function escapeUmlauts(input: string) {
+  return input
+    .split("")
+    .map((character) => specialCharMap[character] || character)
+    .join("");
+}
+
+const specialCharMap: Record<string, string> = {
+  Ÿ: "&Yuml;",
+  ÿ: "&yuml;",
+  Ü: "&Uuml;",
+  ü: "&uuml;",
+  Ö: "&Ouml;",
+  ö: "&ouml;",
+  Ï: "&Iuml;",
+  ï: "&iuml;",
+  Ë: "&Euml;",
+  ë: "&euml;",
+  Ä: "&Auml;",
+  ä: "&auml;",
+  À: "&Agrave;",
+  Á: "&Aacute;",
+  Â: "&Acirc;",
+  Ã: "&Atilde;",
+  Å: "&Aring;",
+  Æ: "&AElig;",
+  Ç: "&Ccedil;",
+  È: "&Egrave;",
+  É: "&Eacute;",
+  Ê: "&Ecirc;",
+  Ì: "&Igrave;",
+  Í: "&Iacute;",
+  Î: "&Icirc;",
+  Ð: "&ETH;",
+  Ñ: "&Ntilde;",
+  Ò: "&Ograve;",
+  Ó: "&Oacute;",
+  Ô: "&Ocirc;",
+  Õ: "&Otilde;",
+  Ø: "&Oslash;",
+  Œ: "&OElig;",
+  Ù: "&Ugrave;",
+  Ú: "&Uacute;",
+  Û: "&Ucirc;",
+  Ý: "&Yacute;",
+  Þ: "&THORN;",
+  à: "&agrave;",
+  á: "&aacute;",
+  â: "&acirc;",
+  ã: "&atilde;",
+  å: "&aring;",
+  æ: "&aelig;",
+  ç: "&ccedil;",
+  è: "&egrave;",
+  é: "&eacute;",
+  ê: "&ecirc;",
+  ì: "&igrave;",
+  í: "&iacute;",
+  ð: "&eth;",
+  ñ: "&ntilde;",
+  ò: "&ograve;",
+  ó: "&oacute;",
+  ô: "&ocirc;",
+  õ: "&otilde;",
+  ø: "&oslash;",
+  œ: "&oelig;",
+  ù: "&ugrave;",
+  ú: "&uacute;",
+  û: "&ucirc;",
+  ý: "&yacute;",
+  þ: "&thorn;",
+  Š: "&Scaron;",
+  š: "&scaron;",
+  Č: "&Ccaron;",
+  č: "&ccaron;",
+};
