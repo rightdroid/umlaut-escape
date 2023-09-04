@@ -9,7 +9,7 @@
 You can install this package via npm:
 
 ```bash
-npm install escape-umlaut
+npm install umlaut-escape
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install escape-umlaut
 Import the escapeUmlaut function and use it to escape special characters in a string:
 
 ```typescript
-import { escapeUmlaut } from "escape-umlaut";
+import { escapeUmlaut } from "umlaut-escape";
 
 const inputString = "Hällo Wörld";
 const escapedString = escapeUmlaut(inputString);
