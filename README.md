@@ -32,7 +32,7 @@ This function takes a string input as its parameter and returns a new string wit
 
 ## License
 
-This package is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This package is released under the ISC License. See the [LICENSE](LICENSE) file for more details.
 
 ## Issues
 
