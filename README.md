@@ -1,8 +1,8 @@
-# escape-umlaut
+# umlaut-escape
 
 ## Description
 
-`escape-umlaut` is a small JavaScript package that provides a single function for escaping special characters like umlauts (e.g. õ, ä, ö, ü) in a given string. The special characters are replaced with their respective [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For a full list of currently supported HTML entities, see the [Current special characters map](#current-special-characters-map) at the end of this README.
+`umlaut-escape` is a small JavaScript package that provides a single function - `escapeUmlaut` - for escaping special characters like umlauts (e.g. õ, ä, ö, ü) in a given string. The special characters are replaced with their respective [HTML entities](https://developer.mozilla.org/en-US/docs/Glossary/Entity). For a full list of currently supported HTML entities, see the [Current special characters map](#current-special-characters-map) at the end of this README.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install umlaut-escape
 
 ## Usage
 
-Import the escapeUmlaut function and use it to escape special characters in a string:
+Import the `escapeUmlaut` function and use it to escape special characters in a string:
 
 ```typescript
 import { escapeUmlaut } from "umlaut-escape";
